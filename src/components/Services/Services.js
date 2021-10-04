@@ -30,7 +30,7 @@ const Services = () => {
                                         <Card.Body>
                                             <Card.Title>{course.courseName}</Card.Title>
                                             <Card.Text>
-                                                <h4>{course.description}</h4>
+                                                <h4>{course.description.slice(0,50)}</h4>
                                                 <div> <span><FontAwesomeIcon icon={faCheckCircle} /></span> {course.contentHours}+ Hr Video Content</div>
                                                 <div> <span><FontAwesomeIcon icon={faCheckCircle} /></span> {course.practicalLesson}+ Practical Lesson</div>
                                                 <div> <span><FontAwesomeIcon icon={faCheckCircle} /></span> {course.access}</div>

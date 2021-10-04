@@ -1,0 +1,19 @@
+.about-section {
+    text-align: center;
+    font-family: 'Pridi', serif;
+    height: 500px;
+    margin: 50px 0;
+    /* width: 500px; */
+}
+.about-section span {
+    color: #ffc107;
+}
+.about-section h2 {
+    font-size: 40px;
+}
+.about-section h4 {
+    margin: 10px 150px;
+}
+.about-section img {
+    width: 400px;
+}

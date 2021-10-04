@@ -1,0 +1,35 @@
+.contact-section {
+    text-align: center;
+    background-color: black;
+    font-family: 'Pridi', serif;
+    height: 400px;
+    margin: 50px 0;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 26px;
+}
+.contact-section h2 {
+    font-size: 60px;
+}
+.contact-section .icon{
+    color: #6ec1e4;
+}
+.contact-section .divider {
+    text-align: center;
+    padding-top: 5px;
+    width: 75px;
+    border-top: 2px solid #9b1f1a;
+    margin: auto;
+    border-bottom: 2px solid #9b1f1a;
+    margin-bottom: 10px;
+}
+.contact-section .divider span {
+    width: 75px;
+    border-top: 25px solid red;
+}
+.contact-section .only-whatsapp {
+    color: #B7B964;
+    font-size: 22px;
+    margin-top: 20px;
+}

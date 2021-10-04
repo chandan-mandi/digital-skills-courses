@@ -2,7 +2,7 @@
 
 .banner-container {
     background-image: url(../../images/header-bg.jpg);
-    height: 500px;
+    height: 650px;
     background-position: right;
     background-size: cover;
 }
@@ -24,3 +24,37 @@
 .banner-container span {
     color: #ffc107;
 }
+.slide-right {
+    width: 100%;
+    overflow: hidden;
+    /* margin-left: 300px; */
+    max-width: 200px
+  }
+  
+  .slide-right {
+    animation: 2s slide-right 0s forwards;
+      transform:translateX(-100%);
+  }
+  
+  @keyframes slide-right {
+    to {
+      transform:translateX(0);
+    }
+  }
+.slide-left {
+    width: 100%;
+    overflow: hidden;
+    /* margin-left: 300px; */
+    /* max-width: 200px */
+  }
+  
+  .slide-left {
+      animation: 2s slide-right 0s forwards;
+    transform: translateX(100%);
+  }
+  
+  @keyframes slide-left {
+    to {
+      transform:translateX(0);
+    }
+  }

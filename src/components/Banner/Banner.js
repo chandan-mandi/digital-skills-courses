@@ -12,13 +12,13 @@ const Banner = () => {
             <MenuBar></MenuBar>
             <Container className="mt-5">
                 <Row>
-                    <Col className="text-end mt-5 p-5" md={7} sm={12}>
+                    <Col className="text-end slide-right mt-5 p-5" md={7} sm={12}>
                         <h1>DIGITAL <span>SKILLS</span></h1>
                         <h2>Skill Oriented Online Courses</h2>
                         <Button variant="warning" href="#service-section">START LEARNING <FontAwesomeIcon icon={faArrowDown}></FontAwesomeIcon></Button>
                     </Col>
                     <Col md={5} sm={12}>
-                        <div className="banner-person">
+                        <div className="banner-person slide-left">
                             <img src={bannerperson} alt="" />
                         </div>
                     </Col>
