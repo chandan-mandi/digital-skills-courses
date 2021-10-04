@@ -1,0 +1,26 @@
+
+
+.banner-container {
+    background-image: url(../../images/header-bg.jpg);
+    height: 500px;
+    background-position: right;
+    background-size: cover;
+}
+.banner-person img {
+    width: 400px;
+}
+.banner-container .btn {
+    border-radius: 50px;
+    font-weight: bold;
+}
+.banner-container h1 {
+    font-size: 48px;
+    font-family: 'Pridi', serif;
+}
+.banner-container h2 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 19px;
+}
+.banner-container span {
+    color: #ffc107;
+}

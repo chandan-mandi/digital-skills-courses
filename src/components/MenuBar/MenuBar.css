@@ -1,0 +1,14 @@
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbar-brand img {
+    width: 60px;
+}
+.navbar-nav a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}

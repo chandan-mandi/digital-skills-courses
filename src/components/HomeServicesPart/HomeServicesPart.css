@@ -1,0 +1,33 @@
+#service-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.home-service-section h2{
+    text-align: center;
+    font-family: "Amethysta",Sans-serif;
+    color: #0a0a0a;
+    font-weight: 100;
+}
+.home-service-section h2 span {
+    font-family: 'Shadows Into Light', cursive;
+}
+.course-card {
+    height: 430px;
+}
+.course-card div span {
+    color: green;  
+    font-size: 16px;
+}
+.course-card h3, .course-card h3 span {
+    color: red;
+    font-size: 22px;
+}
+.course-card button span {
+    color: black;
+}
+.course-card p {
+    margin-bottom: 4px;
+}
+.price-section {
+    justify-content: space-between;
+}
