@@ -36,7 +36,7 @@ const HomeServicesPart = () => {
                                                 <div> <span><FontAwesomeIcon icon={faCheckCircle} /></span> {course.support}</div>
                                             </Card.Text>
                                             <div className="d-flex mt-3 price-section">
-                                                <h3> <span><FontAwesomeIcon icon={faRupeeSign} /></span> {course.currentPrice}</h3>
+                                                <h3> <span><FontAwesomeIcon icon={faRupeeSign} /></span>{course.currentPrice}</h3>
                                                 <Button variant="warning"><span><FontAwesomeIcon icon={faGraduationCap} /></span> Enrol Now</Button>
                                             </div>
                                         </Card.Body>

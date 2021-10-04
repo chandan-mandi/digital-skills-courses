@@ -31,3 +31,12 @@
 .price-section {
     justify-content: space-between;
 }
+.course-card img {
+    height: 150px;
+}
+.course-card h4 {
+    font-size: 16px;
+}
+.course-card .card-title {
+    font-weight: bold;
+}

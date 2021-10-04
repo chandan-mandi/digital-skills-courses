@@ -11,4 +11,9 @@
     padding: 15px;
     text-decoration: none;
     font-size: 18px;
+    color: black;
+}
+.navbar-nav a:hover {
+    font-weight: bold;
+    color: black;
 }

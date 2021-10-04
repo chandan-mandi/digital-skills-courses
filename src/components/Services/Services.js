@@ -12,7 +12,7 @@ const Services = () => {
 
 
     useEffect(() => {
-        fetch('./coursedb.json')
+        fetch('./servicesdb.json')
             .then(res => res.json())
             .then(data => setCourses(data))
     }, [])
