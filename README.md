@@ -2,9 +2,9 @@
 Live Site Link - https://digital-skills.netlify.app/
 
 # About This Website
-1. LIFETIME ACCESS
-2. EXERCISE FILES
-3. WHATSAPP SUPPORT
+* LIFETIME ACCESS
+* EXERCISE FILES
+* WHATSAPP SUPPORT
 
 
 # My goal
