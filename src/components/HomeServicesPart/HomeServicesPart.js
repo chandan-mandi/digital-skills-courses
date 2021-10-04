@@ -9,7 +9,7 @@ import './HomeServicesPart.css';
 const HomeServicesPart = () => {
     const [courses, setCourses] = useState([]);
 
-
+    // data load from database
     useEffect(() => {
         fetch('./coursedb.json')
             .then(res => res.json())
@@ -30,6 +30,7 @@ const HomeServicesPart = () => {
                                             <Card.Title>{course.courseName}</Card.Title>
                                             <Card.Text>
                                                 <h4>{course.description}</h4>
+                                                {/* icon added */}
                                                 <div> <span><FontAwesomeIcon icon={faCheckCircle} /></span> {course.contentHours}+ Hr Video Content</div>
                                                 <div> <span><FontAwesomeIcon icon={faCheckCircle} /></span> {course.practicalLesson}+ Practical Lesson</div>
                                                 <div> <span><FontAwesomeIcon icon={faCheckCircle} /></span> {course.access}</div>

@@ -11,7 +11,7 @@ const Banner = () => {
         <div className="banner-container">
             <MenuBar></MenuBar>
             <Container className="mt-5">
-                <Row>
+                <Row className="banner-row">
                     <Col className="text-end slide-right mt-5 p-5" md={7} sm={12}>
                         <h1>DIGITAL <span>SKILLS</span></h1>
                         <h2>Skill Oriented Online Courses</h2>
