@@ -12,7 +12,7 @@
     font-family: 'Shadows Into Light', cursive;
 }
 .course-card {
-    height: 430px;
+    /* height: 430px; */
 }
 .course-card div span {
     color: green;  
@@ -21,6 +21,9 @@
 .course-card h3, .course-card h3 span {
     color: red;
     font-size: 22px;
+}
+.course-card h4 {
+    height: 50px;
 }
 .course-card button span {
     color: black;
