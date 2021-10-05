@@ -9,7 +9,7 @@ const About = () => {
     return (
         <div>
             <MenuBar></MenuBar>
-            <Container className="about-section">
+            <Container className="about-section my-5">
                 <h2>About <br /> DIGITAL <span>SKILLS</span></h2> <hr />
                 <div className="d-flex mt-5">
                     <div>

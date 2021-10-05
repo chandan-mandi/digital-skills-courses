@@ -26,6 +26,19 @@
         "img": "./images/premiere pro.png"
     },
     {
+        "id": "d2594586",
+        "courseName": "App Development",
+        "description": "Mobile application developer for all yours mobile app needs",
+        "practicalLesson": "120",
+        "certificate": "Completion Certificate",
+        "access": "Lifetime Access",
+        "contentHours": "25",
+        "support": "Whatsapp Support",
+        "previousPrice": "10,999",
+        "currentPrice": "699",
+        "img": "./images/app develop.jpg"
+    },
+    {
         "id": "d24256",
         "courseName": "Adobe After Effects",
         "description": "Motion Graphics and VFX",
@@ -50,19 +63,6 @@
         "previousPrice": "10,999",
         "currentPrice": "799",
         "img": "./images/wordPress.png"
-    },
-    {
-        "id": "d2594586",
-        "courseName": "App Development",
-        "description": "Mobile application developer for all yours mobile app needs",
-        "practicalLesson": "120",
-        "certificate": "Completion Certificate",
-        "access": "Lifetime Access",
-        "contentHours": "25",
-        "support": "Whatsapp Support",
-        "previousPrice": "10,999",
-        "currentPrice": "699",
-        "img": "./images/app develop.jpg"
     },
     {
         "id": "d2505586",

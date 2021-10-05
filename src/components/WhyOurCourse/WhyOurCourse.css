@@ -20,10 +20,10 @@
 .why-our-course .card-box {
     border: 1px solid gray;
     padding: 40px;
-    border-radius: 5px;
+    border-radius: 35px 35px 0 35px;
     margin: 50px 0;
     background-color: white;
-    height: 300px;
+    height: 350px;
 }
 .card-box h2 {
     color: black;
@@ -35,4 +35,7 @@
 }
 .why-our-course .card-box p {
     color: #3D4E60;
+}
+.why-our-course .total-card-box{
+    padding: 30px;
 }

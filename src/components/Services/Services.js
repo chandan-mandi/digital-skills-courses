@@ -1,21 +1,16 @@
 import { faCheckCircle, faGraduationCap, faRupeeSign } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
-import { useEffect } from 'react';
-import { useState } from 'react';
+import React, { useContext } from 'react';
 import { Card, Col, Container, Row, Button } from 'react-bootstrap';
+import { coursesContext } from '../../App';
 import Footer from '../Footer/Footer';
 import MenuBar from '../MenuBar/MenuBar';
 
 const Services = () => {
-    const [courses, setCourses] = useState([]);
+    
+    // use context api 
+    const courses = useContext(coursesContext);
 
-
-    useEffect(() => {
-        fetch('./servicesdb.json')
-            .then(res => res.json())
-            .then(data => setCourses(data))
-    }, [])
     return (
         <div>
             <MenuBar></MenuBar>

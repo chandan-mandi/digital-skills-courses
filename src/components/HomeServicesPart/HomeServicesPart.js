@@ -1,28 +1,21 @@
-import React from 'react';
-import { useState } from 'react';
-import { useEffect } from 'react';
+import React, { useContext } from 'react';
 import { Col, Container, Row, Button, Card } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckCircle, faRupeeSign, faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 import './HomeServicesPart.css';
+import { coursesContext } from '../../App';
 
 const HomeServicesPart = () => {
-    const [courses, setCourses] = useState([]);
-
-    // data load from database
-    useEffect(() => {
-        fetch('./coursedb.json')
-            .then(res => res.json())
-            .then(data => setCourses(data))
-    }, [])
+    // data load from constext api
+    const courses = useContext(coursesContext);
     return (
         <div id="service-section">
             <div>
-                <Container className="mt-5 home-service-section">
+                <Container className="mt-5 py-5 home-service-section">
                     <h2>Most Popular <span>Course</span> <br /> 70% Student Choice</h2>
-                    <Row>
+                    <Row className="py-5">
                         {
-                            courses.map(course =>
+                            courses.slice(0,4).map(course =>
                                 <Col className="mt-2 p-2" md={3} sm={12}>
                                     <Card className="course-card">
                                         <Card.Img variant="top" src={course.img} />
